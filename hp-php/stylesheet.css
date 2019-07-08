@@ -1,0 +1,117 @@
+html{
+  height:100%;
+}
+body{
+  margin:0;
+  font-family:sans-serif;
+  background-image:url("https://wallpapersfind.com/wp-content/uploads/2017/10/milky-way-from-earth-wallpaper-1600x900.jpg");
+  background-size:cover;
+}
+a{
+  text-decoration:none;
+}
+.header{
+  height:70px;
+  width:100%;
+  background-color:#000000;
+  position:fixed;
+  top:0;
+  z-index:999;
+  opacity: 0.8
+}
+.logo{
+  width:130px;
+  height:70px;
+  line-height:70px;
+  font-size:40px;
+  color:white;
+  font-family:inherit;
+}
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+  background-color:rgba(255,255,255,0.3)
+}
+.header-right a{
+  line-height:70px;
+  padding:0 30;
+  color:white;
+  display:block;
+  width:200px;
+  text-align:center;
+}
+.header-right i{
+  padding-right:10px
+}
+.container{
+  width:1170px;
+  padding:0 15px;
+  margin: 0 auto;
+}
+
+.main{
+  height:100%;
+  padding:180px 0 100px 0;
+  color:white;
+  text-align:center;
+}
+.introduce h1{
+  opacity: 0.7;
+  letter-spacing:5px;
+}
+.footer{
+  width:100%;
+  background-color: #2f5167;
+  color:#fff;
+  height:130px;
+  padding:20px;
+  
+  bottom:0;
+}
+.footer-left{
+  float:left;
+}
+.footer-right{
+  float:right;
+}
+.lessons{
+  display:inline-block;
+  text-align:center;
+  opacity:0.8;
+}
+.lesson{
+  float:left;
+  padding:20px;
+  background-color: #696969;
+
+  opacity:0.9;
+  width:140px;
+  height:105px;
+}
+.lesson h2{
+  font-size:18px;
+white-space: nowrap;
+}
+.selected{
+color:red;
+}
+.heading{
+  margin-top:50px;
+  border-top:5px solid white;
+}
+.ending h2{
+  border-top:5px solid white;
+  padding-top:15px;
+}
+.ending span{
+  color:red;
+}
+li{
+  list-style: none;
+}
+.comment-form{
+  margin:50px 50px 100px 50px;
+  border-top:5px solid white
+}
